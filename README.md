@@ -1,6 +1,6 @@
 # CurrencyConverterApp
 
-This app helps user convert necessary amount of currency. In the main header current rates of UAH USD and EUR are shown.
+This app helps user convert necessary amount of currency. In the main header current rates of UAH USD and EUR are shown. App was created using Angular and TypeScript
 
 ![Снимок экрана (72)](https://user-images.githubusercontent.com/111873795/224388728-3269faf6-488d-47ab-aca0-9235dfacf8c6.png)
 

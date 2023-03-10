@@ -1,0 +1,40 @@
+<div class="main-container">
+  <div class="app-title">
+    <h1>Currency Converter</h1>
+  </div>
+
+  <header>
+    <div class="current-rate">
+      <h4 value="USD">1 USD = {{usdToUah}} UAH</h4>
+      <h4 value="USD">1 EUR = {{eurToUah}} UAH</h4>
+    </div>
+  </header>
+
+  <div class="converter">
+    <div class="country-1">
+      <input #country1number class="currency-input" type="text" name="" id="c1" value={{result2}} (keyup)="countCurrency1(country1number.value)" />
+      <select #country1 name="" id="countries" (change)="getCountry1(country1.value)">
+        <option value="USD">US Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="UAH">Ukrainian Hryvnia</option>
+        <option value="AZN">Azerbaijan Manat</option>
+        <option value="TRY">Turkish Lira</option>
+      </select>
+    </div>
+    <br />
+    <div class="country-2">
+      <input #country2number class="currency-input" type="text" name="" id="c2" value={{result1}} (keyup)="countCurrency2(country2number.value)"/>
+      <select #country2 name="" id="countries" (change)="getCountry2(country2.value)">
+        <option value="USD">US Dollar</option>
+        <option value="EUR">Euro</option>
+        <option value="UAH">Ukrainian Hryvnia</option>
+        <option value="AZN">Azerbaijan Manat</option>
+        <option value="TRY">Turkish Lira</option>
+      </select>
+    </div>
+  </div>
+
+  <footer class="copyright">
+    <h3>IamAlinaaa © {{ year }}</h3>
+  </footer>
+</div>

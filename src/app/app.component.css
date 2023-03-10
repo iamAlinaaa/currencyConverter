@@ -1,0 +1,81 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Ubuntu&display=swap"); */
+
+.app-title {
+  color: aliceblue;
+  font-size: 900;
+  width: 50vw;
+  height: 10vh;
+}
+
+h1 {
+  margin: 30px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+header {
+  color: aliceblue;
+  background-position: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.converter .country-1 {
+  margin: auto;
+  position: absolute;
+  top: 100px;
+}
+.converter .country-2 {
+  margin: auto;
+  position: absolute;
+  top: 230px;
+}
+
+.converter {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 40vh;
+  width: 40vw;
+  margin: auto;
+  margin-top: 5vh;
+
+}
+
+#countries {
+    font-size: 1.3rem;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+.currency-input { 
+    font-size: 2rem;
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+ 
+}
+
+.copyright {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+
+}

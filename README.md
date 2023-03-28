@@ -1,4 +1,10 @@
 # CurrencyConverterApp
+Helps user to convert the currency. Has a lot of currencies for conversion to choose. Project uses API Exchangerate.host and shows current rate of USD and EUR to UAH. 
+
+![Снимок экрана (72)](https://user-images.githubusercontent.com/111873795/228184769-9d0b86ea-9645-485b-888d-9aabaa2c57e1.png)
+
+
+![Снимок экрана (69)](https://user-images.githubusercontent.com/111873795/228184800-3ea53503-b231-473f-bdbe-00f77dc0746c.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 

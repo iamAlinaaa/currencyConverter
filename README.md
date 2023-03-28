@@ -1,11 +1,5 @@
 # CurrencyConverterApp
 
-This app helps user convert necessary amount of currency. In the main header current rates of UAH USD and EUR are shown. App was created using Angular and TypeScript
-
-![Снимок экрана (72)](https://user-images.githubusercontent.com/111873795/224388728-3269faf6-488d-47ab-aca0-9235dfacf8c6.png)
-
-![Снимок экрана (69)](https://user-images.githubusercontent.com/111873795/224386460-20c7a392-6f02-4c8f-90f8-03cb8e61544c.png)
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
 
 ## Development server
@@ -31,4 +25,3 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-

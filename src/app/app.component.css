@@ -1,0 +1,27 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Ubuntu&display=swap"); */
+
+.app-title {
+  color: aliceblue;
+  font-size: 900;
+  width: 50vw;
+  height: 10vh;
+}
+
+h1 {
+  margin: 30px;
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+header {
+  color: aliceblue;
+  background-position: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto;
+}

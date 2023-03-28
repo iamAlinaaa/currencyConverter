@@ -1,0 +1,19 @@
+<div class="converter">
+<div class="country-1">
+    <input #country1number class="currency-input" type="text" name="" id="c1" value={{result2}} (keyup)="countCurrency1(country1number.value)" />
+    <select #country1 name="" id="countries" (change)="getCountry1(country1.value)">
+        <option *ngFor="let currency of allCurrencies" [value]="currency.code">
+            {{currency.name}}
+        </option>
+    </select>
+  </div>
+  <br />
+  <div class="country-2">
+    <input #country2number class="currency-input" type="text" name="" id="c2" value={{result1}} (keyup)="countCurrency2(country2number.value)"/>
+    <select #country2 name="" id="countries" (change)="getCountry2(country2.value)">
+	    <option *ngFor="let currency of allCurrencies" [value]="currency.code">
+		{{currency.name}}
+	    </option>
+</select>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+.converter .country-1 {
+  margin: auto;
+  position: absolute;
+  top: 100px;
+}
+.converter .country-2 {
+  margin: auto;
+  position: absolute;
+  top: 230px;
+}
+
+.converter {
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 40vh;
+  width: 40vw;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+#countries {
+  font-size: 1.3rem;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 7px;
+}
+
+.currency-input {
+  font-size: 2rem;
+  width: 300px;
+  height: 50px;
+  border-radius: 7px;
+}
